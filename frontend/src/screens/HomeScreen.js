@@ -18,7 +18,7 @@ function ArticleScreen() {
             <Row>
                 {articles.map(article => (
                     <Col sm={12} md={6} lg={4} xl={3}>
-                        <h3>{article.name}</h3>
+                        <h3>{article.title}</h3>
                     </Col>
                 ))}
             </Row>
